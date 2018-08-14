@@ -23,3 +23,29 @@ body section h1{
 	box-sizing: border-box;
 	padding-top: 3vh;
 }
+body section select{
+	width: 100%;
+	height: 6vh;
+	margin: 1vh 0 4vh 0;
+	border: 0.1vw grey solid;
+}
+body section form{
+	width: 50%;
+	margin: 5vh auto 0 auto;
+}
+body section form input{
+	display: block;
+	width: 100%;
+	height: 4vh;
+	margin-top: 1vh;
+	font-size: .9em;
+	border: 0.1vw grey solid;
+}
+body section button.vender{
+	width: 25%;
+	margin-left: 25%;
+	background-color: #6732FF;
+	border: none;
+	color: white;
+	padding: 2vw;
+}
