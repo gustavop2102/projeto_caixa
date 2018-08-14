@@ -65,7 +65,13 @@
 			$("#vu").val("");
 		}
 	});
-	
+
+	$(".teste").on("focusout", function(){
+		qt = parseFloat($(".teste").val());
+		vu = parseFloat($("#vu").val());
+		$("#vt").val(qt*vu);
+		vt = parseFloat($("#vt").val());
+	});
 </script>
 </body>
 </html>
