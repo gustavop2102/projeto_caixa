@@ -53,6 +53,19 @@
 	var produto=null;
 	var td = 0.0;
 	
+	$("select").on("click", function(){
+		var produto = $("#produto option:selected").text();
+		if (produto=="Queijo") {
+			$("#vu").val("2.5");
+		}else if (produto=="Sal") {
+			$("#vu").val("3");
+		}else if (produto=="Farinha") {
+			$("#vu").val("8.5");
+		}else{
+			$("#vu").val("");
+		}
+	});
+	
 </script>
 </body>
 </html>
