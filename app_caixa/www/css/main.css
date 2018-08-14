@@ -1,0 +1,25 @@
+@font-face {
+    font-family: futura;
+    src: url(../fonts/LTe50152.woff);
+}
+body{
+	background: white;
+}
+body section{
+	display: flex;
+	flex-wrap: wrap;
+	font-family: futura,"calibri";	
+	display: block;	
+	width: 100vw;
+	font-size: 1.3em;
+}
+body section h1{
+	width: 100vw;
+	background: #6732ff;
+	text-align: center;
+	font-size: 8vh;
+	color: white;
+	height: 14vh;
+	box-sizing: border-box;
+	padding-top: 3vh;
+}
