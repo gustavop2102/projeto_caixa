@@ -72,6 +72,23 @@
 		$("#vt").val(qt*vu);
 		vt = parseFloat($("#vt").val());
 	});
+
+								// !!!!!!FUNCAO INSERIR LINHAS NOVAS!!!!!!!!!
+	function processar(tabela){
+		console.log($("#vt").val());
+		var tabela = document.getElementById("tabela");
+    	var row = tabela.insertRow(-1);
+    	var cell1 = row.insertCell(0);
+    	var cell2 = row.insertCell(1);
+    	cell1.innerHTML = $("#produto option:selected").text();
+    	cell2.innerHTML = vt;
+	}
+
+	$(".vender").on("click", function(){
+	processar(tabela);
+	td+=vt;
+	$("span").text(td);
+	});
 </script>
 </body>
 </html>
