@@ -49,3 +49,18 @@ body section button.vender{
 	color: white;
 	padding: 2vw;
 }
+body section table{
+	margin: 0 auto 0 auto;
+	width: 90%;
+	height: 3vh;
+	border: 1px black solid;
+	line-height: 4vh;
+	text-align: center;
+}
+body section table tr{
+	border: 1px black solid;
+}
+body section table td{
+	padding: 2vw;
+	border: 1px black solid;
+}
