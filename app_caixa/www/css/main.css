@@ -64,3 +64,11 @@ body section table td{
 	padding: 2vw;
 	border: 1px black solid;
 }
+body section h2{
+	margin: 6vh auto 1vh auto;
+	width: 90%;
+	font-size: 1.2em;
+}
+body section h3{
+	margin: 5% 0 0 5%;
+}
